@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Furniture Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="home.html" class="logo">
+            <img src="logofurn500.png" alt="Logo Icon">
+        </a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#" class="active">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <link rel="stylesheet" href="styleproduct.css">
+    <section class="Products">
+        <div class="container">
+            <div class="icon-rnext">
+                <img src="ooui--arrow-next-rtl.svg" alt="icon" width="60px" height="80px" >
+        </div>
+            <div class="text-room">
+                <img src="image for product cat/livingroom.jpeg" class="product-img">
+                <h2> Living Room</h2>
+            </div>
+   
+            <div class="text-room">
+                <img src="bedroom.jpeg" class="product-img">
+                <h2> Bedroom </h2>
+            </div>
+
+            <div class="text-room">
+                <img src="office.jpeg" class="product-img">
+                <h2> Office </h2>
+            </div>
+            <div class="icon-rnext56">
+                <img src="ooui--arrow-next-ltr.svg" alt="icon" width="60px" height="80px" >
+            </div>
+        </div>
+
+       <div class="form-container">   <!-- classkan dalam 1 container -->
+        <div id="form1">
+            <form>
+                <select name="categories">
+                    <option value="Lamps">Lamp</option>
+                    <option value="Rugs">Carpets</option>
+                </select>
+            </form>
+        </div>
+
+        <div id="form2">
+            <form>
+                <input type="search" id="search-input" placeholder="Search..." aria-label="Search" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <section class="side-menu">
+        <div class="menu-container">
+            <div class="menu-item">
+              <form>    <!-- masukkan semua pilihan dalam ni -->
+                    <input type="radio" name="sex" value="male">Polyvester<br>
+                    <input type="radio" name="sex" value="female">Wood
+                </form>
+            </div>
+
+            <div class="price-range">
+                <h2>Price Range</h2>
+                <input type="range" id="minPrice" min="0" max="100" value="20" step="1">
+                <input type="range" id="maxPrice" min="0" max="100" value="80" step="1">
+                <div>
+                    <span>Min: <span id="minPriceLabel">20</span></span>
+                    <span>Max: <span id="maxPriceLabel">80</span></span>
+                </div>
+            </div>
+
+            
+
+        </div>
+        
+    </section>
+
+    <section class="product-img">
+        <div class="new-arr4">
+            <h1>Living Room</h1>
+        <div class="prod-container">
+            <div class="prod-img">
+                <img src="image for product cat/coffeetableliv.jpeg" class="img-display">
+                <h2>NOOK</h2>
+                <h4>(Coffee table)</h4>
+                <h3>RM 290.00</h3>
+                <a href="purchase.html" class="button3">Order Now</a>
+            </div>
+
+            <div class="prod-img">
+                <img src="image for product cat/livsofa1.jpeg" class="img-display">
+                <h2>CLOUDY</h2>
+                <h4>(Sofa)</h4>
+                <h3>RM 1000.00</h3>
+                <a href="purchase.html" class="button3">Order Now</a>
+            </div>
+
+            <div class="prod-img">
+                <img src="image for product cat/miroh.jpeg" class="img-display">
+                <h2>VEIL</h2>
+                <h4>(Mirror)</h4>
+                <h3>RM 399.00</h3>
+                <a href="purchase.html" class="button3">Order Now</a>
+            </div>
+
+            <div class="prod-img">
+                <img src="image for product cat/armchairgreem.jpeg" class="img-display">
+                <h2>KORA</h2>
+                <h4>(Armchair)</h4>
+                <h3>RM 490.00</h3>
+                <a href="purchase.html" class="button3">Order Now</a>
+            </div>
+
+            <div class="prod-img">
+                <img src="image for product cat/bookshelvie.jpeg" class="img-display">
+                <h2>VARA</h2>
+                <h4>(Bookshelf)</h4>
+                <h3>RM 329.00</h3>
+                <a href="purchase.html" class="button3">Order Now</a>
+            </div>
+
+            <div class="prod-img">
+                <img src="image for product cat/rugliv.jpeg" class="img-display">
+                <h2>WOVEN</h2>
+                <h4>(Rug)</h4>
+                <h3>RM 149.00</h3>
+                <a href="purchase.html" class="button3">Order Now</a>
+            </div>
+
+            
+            <div class="prod-img">
+                <img src="image for product cat/consoleliv.jpeg" class="img-display">
+                <h2>DUIWE</h2>
+                <h4>(Console table)</h4>
+                <h3>RM 450.00</h3>
+                <a href="purchase.html" class="button3">Order Now</a>
+    
+            </div>
+
+            <div class="prod-img">
+                <img src="image for product cat/standlampliv.jpeg" class="img-display">
+                <h2>GLINT</h2>
+                <h4>(Standlamp)</h4>
+                <h3>RM 45.00</h3>
+                <a href="purchase.html" class="button3">Order Now</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+
+
+
+    
+</body>
+</html>

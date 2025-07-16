@@ -1,0 +1,202 @@
+.purchase-img{
+    display: flex;  
+    width: 1000px;
+    height: 600px;
+    position: static;
+    left: 140px;
+    margin-left: 10px;
+    margin: 80px;
+}
+
+.purchase-disp{
+    width: 520px;
+    max-width: 1000px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.purchase-info{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;/* Arrange images in a row */
+    gap: 5px; /* Space between images */
+    border: 2px solid #ccc; /* Border around the box */
+    border-radius: 10px; /* Rounded corners */       
+    padding: 20px;
+    background-color: rgb(171, 192, 221);
+    width: 1000px;
+    height: 680px;
+    position: absolute;
+    margin-left: 700px;
+    top: 180px;
+    font-size: 30px;
+}
+
+.purchase-info p{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.purchase-info h1{
+    margin-bottom: 2px;
+}
+
+.purchase-img{
+    margin-right: 20px;
+}
+
+
+.star-rating{
+    display: flex;
+}
+
+.star{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.star.filled{
+    color: goldenrod;
+}
+
+.star:not(.filled){
+    color: rgb(0, 0, 0);
+}
+
+.purchase-info p2{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.info-container2 {
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: flex-start; /* Align items to the start */
+    align-items: center; /* Align items vertically in the center */
+    margin-top: 50px; /* Space above the container */
+}
+
+.color-info h2,
+.quantity-info h2 {
+    margin: 10px 0;
+}
+
+.quantity-info {
+    margin-left: 500px;
+    font-size: 20px;
+    margin-top: 8px;
+
+}
+
+
+.color-info {
+    margin-left: 50px;
+    font-size: 20px;/* Adjust this to bring it closer */
+}
+
+
+.price-info{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+
+.price{
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.button4 {
+    display: inline-block; /* Make the link behave like a block element */
+    padding: 10px; /* Add padding for a button-like appearance */
+    background-color: #f0ad4e; /* Button background color (Bootstrap warning color) */
+    color: black; /* Text color */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+    bottom: 70px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button4:hover {
+    background-color: #307db8; /* Darker shade on hover */
+}
+
+.button5 {
+    text-decoration: none;
+    margin-left: 30px;
+    border-color: red;
+    border-radius: 20px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+}
+
+.button4:hover {
+    background-color: #307db8; /* Darker shade on hover */
+}
+
+.info-container4{
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: flex-start; /* Align items to the start */
+    align-items: center; /* Align items vertically in the center */
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.relate-items{
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.item-wrap{
+    display: flex;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    gap: 30px;
+    flex-wrap: wrap;
+    border: 8px solid #012750c2;
+    border-radius: 10px;
+    background-color: #004894c2;
+}
+
+.relitem-img{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.item-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.icon-item4{
+    display: flex;
+    gap: 10px; /* Space between icons */
+}
+
+.icon-item5 {
+    display: flex;
+    gap: 70px; /* Space between icons */
+}
+
+.quantity-container {
+    display: flex; /* Align icons and quantity number in a row */
+    align-items: center; /* Center items vertically */
+    gap: -60px; /* Space between icons and quantity number */
+}
+
+.quantity-number {
+    font-size: 24px; /* Adjust font size for the quantity number */
+    margin-left: -82px; /* Remove default margins */
+}
+.color-info h2 {
+    margin-bottom: 10px; /* Space between the heading and icons */
+}

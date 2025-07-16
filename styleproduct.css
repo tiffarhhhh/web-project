@@ -1,0 +1,189 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 80px 0;
+}
+
+.product-img{
+    flex-direction: column;
+    width: 350px;
+    max-width: 500px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#form1{
+    font-size: 30px;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+#form2{
+    padding-left: 22;
+}
+
+#search-input{ /* untuk letak apa yang nak disearch */
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+button{
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    border-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: #969696; /* Darken background on hover */
+}
+
+button:active {
+    background-color: #004085; /* Darker background when clicked */
+}
+
+
+.menu-container{   /* nak simpan dalam 1 box */
+    display: flex; 
+    flex-direction: column;/* Arrange images in a row */
+    gap: 10px; /* Space between images */
+    border: 2px solid #ccc; /* Border around the box */
+    border-radius: 10px; /* Rounded corners */       
+    padding: 20px; /* Padding inside the box */
+    background-color: rgb(222, 222, 229);
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    left: 20px;
+    margin-left: 200px;
+}
+
+.icon-rnext{
+    margin-top: 90px;
+    margin-right: 10px;
+
+}
+
+.icon-rnext56{
+    margin-top: 90px;
+}
+
+.text-room{
+    font-size: 18px;
+    text-align: center;
+}
+.menu-item{
+    font-size: 14px;
+}
+
+.price-range {
+    margin-top: 20px; /* Space above the price range section */
+}
+
+.price-range h2 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+input[type="range"] {
+    width: 100%; /* Full width of the container */
+    margin: 10px 0; /* Space above and below the slider */
+}
+
+h1 {
+    margin-left: 1100px; /* Centering */
+    margin-right: auto; /* Centering */
+    text-align: center; /* Center the text */
+    white-space: nowrap; 
+    margin-top: -2px;
+    font-size: 28px;/* Prevent line breaks */
+}
+
+.prod-container{
+    display: flex; 
+    flex-wrap: wrap;
+    border-color: #004085;
+    border-width: 12px;
+    border-radius: 12px;
+    background-color: aliceblue;
+    justify-content: center;/* Arrange images in a row */
+    gap: 50px; /* Space between images */   
+    padding: 20px;
+    padding-right: 20px;
+    width: 1000px;
+    height: 1100px;
+    position: absolute;
+    left: 140px;
+    margin-left: 500px;
+    margin-top: -30px;
+
+
+ 
+}
+.item-detail h2{
+    margin-bottom: 70px;
+}
+
+.new-arr4{
+    text-align: center;
+    margin-bottom: -80px;
+}
+.prod-img h2{
+    margin-top: -2px;
+    margin-bottom: -28px;
+}
+
+.prod-img h4{
+    margin-bottom: -12px;
+}
+
+.prod-img h3{
+    margin-bottom: 32px; /* Decrease space between the heading and price */
+    
+}
+
+
+.img-display{
+    width: 200px;
+    height: 280px;
+    border: 3px solid rgb(5, 5, 66);
+    border-radius: 5px;
+    gap: 30px;
+}
+
+.prod-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button3{
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    border-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: -20%;
+
+}
+.button3:hover {
+    background-color: #969696; /* Darken background on hover */
+}
+
+.button3:active {
+    background-color: #004085; /* Darker background when clicked */
+}
+ 

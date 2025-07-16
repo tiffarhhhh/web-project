@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background: grey;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(5, 76, 109) ;
+    color: rgb(220, 201, 201);
+    padding: 15px;
+    text-align: end;
+    
+}
+
+.logo img {
+    order: 1;
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* This will ensure the logo maintains its original aspect ratio */
+}
+
+
+header nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Banner styles */
+.banner {
+    position: relative;
+}
+
+/* .right-left{
+
+} */
+
+.banner-image {
+    width: 1100px; /* Full width of the viewport */
+    height: 700px; /* Maintain aspect ratio */
+    max-height: 8000px; /* Limit the height for a landscape effect */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.text {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust center point */
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center; /* Center text */
+}
+
+.home-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    position: relative; /* Ensure the button is positioned relative to this container */
+}
+
+.button {
+    display: inline-block; /* Make the link behave like a block element */
+    padding: 10px 20px; /* Add padding for a button-like appearance */
+    background-color: #007bff; /* Button background color */
+    margin-top: 70px;
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 30px; /* Rounded corners */
+    border: none; /* Remove border */
+    font-size: 16px; /* Font size */
+    overflow: hidden;
+    transition: background-color 0.5s ease; /* Smooth transition for hover effect */
+    position: absolute; /* Position button relative to the banner */
+    top: 60%; /* Adjust this value to position it lower or higher */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust center point */
+;
+
+    backdrop-filter: blur(15px);
+}
+.button:hover {
+    background-color: #0056b3; /* Darken background on hover */
+}
+
+.button:active {
+    background-color: #004085; /* Darker background when clicked */
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 60px 0;
+}
+
+ .icon-item{ /* diselarikan dalam 1 category */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+
+.icon {
+    font-size: 50px;
+    color: black;
+}
+
+.h3 {
+    font-size: 10px;
+}
+
+.new-arr h1{
+    font-size: 30px;
+    text-align: center;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 80px 0;
+}
+.product-display {
+    flex-direction: column;
+    width: 500px;
+    max-width: 2000px;
+    height: 400px;
+
+}
+
+.hypertext{
+    position: sticky;
+}
+.button1 {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.arrive-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/* Arrange images in a row */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    gap: 20px; /* Space between images */
+    border: 2px solid #ccc; /* Border around the box */
+    border-radius: 10px; /* Rounded corners */       
+    padding: 20px; /* Padding inside the box */
+    background-color: rgb(244, 244, 247); 
+    
+    
+}
+
+.right-left{
+    margin-right: 20px;
+    margin-bottom: 55px;
+
+}
+
+.right-left27{
+    margin-left: auto;
+    margin-top: -55px;
+    
+}
+
+
+.new-arrive{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+    width: 200px;
+    max-width: 500px;
+    height: 200px;
+    max-height: 500px;
+}
+
+.arrive-text{
+    width: 300px;
+    margin: 0 auto;
+    text-align: end;
+    display: flex;
+    padding: 10px;
+    border-radius: 6px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrive-text h4{
+    margin-bottom: 5px;
+}
+
+.arrive-text p{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -3px;
+}
